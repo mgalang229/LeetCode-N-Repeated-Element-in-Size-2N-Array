@@ -13,6 +13,7 @@ class Solution {
                 ans = nums[i];
                 break;
             }
+            i = index - 1;
         }
         return ans;
     }
